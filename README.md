@@ -2,6 +2,10 @@
 A project focused on implementing multi-hardware configuration functionality on a Xilinx SOC.
 Done on a Kria KV260 which features a UltraScale+ MPSoC ZU5EV.
 
+# Questions
+DFX or full image boot?
+ - Dependant on if different i/o, external hardware is needed
+
 # Requirements
 ## Design
  - Switch between at least two configurations
