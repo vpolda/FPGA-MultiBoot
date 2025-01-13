@@ -1,10 +1,15 @@
 # FPGA_MultiBoot
-A project focused on implementing multi-hardware configuration functionality on a Xilinx SOC.
+A project focused on implementing multi-hardware configuration functionality on a Xilinx SOC with the end goal of improvying dynamic high performance systems.
 Done on a Kria KV260 which features a UltraScale+ MPSoC ZU5EV.
 
 # Questions
-DFX or full image boot?
- - Dependant on if different i/o, external hardware is needed
+## Part/core swap(DFX) or full image boot?
+ - Dependant on if different i/o is needed per config, ie different external hardware
+ - DFX is faster, less intense
+
+## How much Processor intervention?
+Looks like both DFX and full image require configuration on the processor side, maybe we could look into development of Programmable Logic only.
+Either would require the processor to be the driver or an external microcontroller (if custom board is designed). It interfaces with the ICAP interface.
 
 # Requirements
 ## Design
@@ -14,7 +19,7 @@ DFX or full image boot?
 ## Analysis
  - Record boot and load time and power consumption?
  - Relation to bit stream size?
- - Memory requirements
+ - Memory requirements?
 
 # Development
 
@@ -32,3 +37,6 @@ Boot from memory
 ### Walk
 
 ### Run
+
+# Future Developments
+Pull images/DFX cores from remote server.
