@@ -1,6 +1,9 @@
 # FPGA_MultiBoot
-A project focused on implementing multi-hardware configuration functionality on a Xilinx SOC with the end goal of improvying dynamic high performance systems.
+A project focused on implementing multi-hardware configuration functionality on a Xilinx SOC with the goal of improvying dynamic high performance systems.
 Done on a Kria KV260 which features a UltraScale+ MPSoC ZU5EV.
+
+## Goal 
+Improving high performance heterogenous computer systems
 
 # Questions
 ## Part/core swap(DFX) or full image boot?
