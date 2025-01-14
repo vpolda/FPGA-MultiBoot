@@ -33,12 +33,15 @@ How will failures during reprogramming be handled?
 What mechanisms ensure data consistency during the transition period?
 
 What data will we capture during reprogramming?
- - programming time and bit stream size
- - Memory requirements
+ - programming time
+ - Bit stream file size
  - Power consumption
+ - Could then find ratio of new to old bitstream file and relate it to programming time
 
 # Requirements
 WIll fill in as it develops
+ - Memory requirements
+ - Power requirements
 
 # Development
 ## PS Driven Full image
@@ -51,6 +54,12 @@ PS to initiate reprogramming from memory (same image)
 ### Run
 Store second image in memory, offset from original
 PS to initiate reprogramming from memory (second image)
+
+# Resources
+
+## PCAP
+![image](https://github.com/user-attachments/assets/70c6072d-e823-4cff-88ef-6a920f8ff31d)
+
 
 # Future Developments
 Pull images/DFX cores from remote server.
