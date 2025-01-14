@@ -59,7 +59,8 @@ PS to initiate reprogramming from memory (second image)
 
 ## PCAP
 ![image](images/PCAP_in_UltraScale.PNG)
-
+This shows that the PCAP must be selected through setting the SSS register
+From: UG117 pg 17
 
 # Future Developments
 Pull images/DFX cores from remote server.
