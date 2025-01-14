@@ -1,0 +1,17 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.5",
+   "Default View_TopLeft":"30,-275",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace inst dfx_controller_0 -pg 1 -lvl 2 -x 830 -y 40 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -x 310 -y -100 -defaultsOSRD
+levelinfo -pg 1 0 310 830 1190 1350
+pagesize -pg 1 -db -bbox -sgen -90 -200 1350 370
+"
+}
+{
+   "da_axi4_cnt":"1",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}
