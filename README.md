@@ -56,6 +56,8 @@ Store second image in memory, offset from original
 PS to initiate reprogramming from memory (second image)
 
 # Resources
+## Other Research
+DATE'24 and DAC'22 are reference papers. I discuss them in /docs "DATE-24.md" and "DAC-22.md"
 
 ## PCAP
 The PCAP interface is used by the PS to program the PL. 
@@ -64,7 +66,11 @@ The PCAP interface is used by the PS to program the PL.
 This shows that the PCAP must be selected through setting the SSS register
 From: UG117 pg 17
 
+## Drivers
 Xilinx has provided a driver class already: https://github.com/Xilinx/embeddedsw/tree/master/lib/sw_services/xilfpga
+https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18841910/Xilfpga
+
+Might need to config debug driver: https://github.com/Xilinx/embeddedsw/blob/master/XilinxProcessorIPLib/drivers/devcfg/src/xdevcfg.c
 
 # Future Developments
 Pull images/DFX cores from remote server.
