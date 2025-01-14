@@ -58,7 +58,7 @@ PS to initiate reprogramming from memory (second image)
 # Resources
 
 ## PCAP
-![image](https://github.com/user-attachments/assets/70c6072d-e823-4cff-88ef-6a920f8ff31d)
+![image](images/PCAP_in_UltraScale.PNG)
 
 
 # Future Developments
