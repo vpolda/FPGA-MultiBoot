@@ -19,6 +19,7 @@ What are the throughput or performance requirements of the system during reprogr
  - ie. can it go under? If so, for how long?
 
 Should reprogramming occur autonomously, based on specific conditions, or via external commands? 
+Where will images be stored?
  - This drives if the processor is involved, what type of interface
 
 Will reprogramming use an operating system (e.g., Linux on the PS) or be controlled bare-metal?
