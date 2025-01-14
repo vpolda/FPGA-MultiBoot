@@ -6,6 +6,11 @@ Done on a Kria KV260 which features a UltraScale+ MPSoC ZU5EV.
 Improving high performance heterogenous computer systems
 
 # Questions
+## Typical setup?
+I think this answer would define some of my other questions, but what will a typical setup look like?
+
+## Why Kria SOM?
+
 ## Part/core swap(DFX) or full image boot?
  - Dependant on if different i/o is needed per config, ie different external hardware
  - DFX is faster, less intense
