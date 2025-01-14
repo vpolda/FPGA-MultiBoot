@@ -58,9 +58,13 @@ PS to initiate reprogramming from memory (second image)
 # Resources
 
 ## PCAP
+The PCAP interface is used by the PS to program the PL. 
+
 ![image](images/PCAP_in_UltraScale.PNG)
 This shows that the PCAP must be selected through setting the SSS register
 From: UG117 pg 17
+
+Xilinx has provided a driver class already: https://github.com/Xilinx/embeddedsw/tree/master/lib/sw_services/xilfpga
 
 # Future Developments
 Pull images/DFX cores from remote server.
