@@ -3,7 +3,7 @@ A project focused on implementing multi-hardware configuration functionality on 
 Done on a Kria KV260 which features a UltraScale+ MPSoC ZU5EV.
 
 ## Goal 
-Improving high performance heterogenous computer systems
+Improving high performance heterogenous computer systems by enabling switching between performance and power focuses. 
 
 # Questions
 ## Typical setup?
