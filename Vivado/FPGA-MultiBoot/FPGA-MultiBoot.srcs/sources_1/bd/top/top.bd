@@ -11,7 +11,9 @@
     },
     "design_tree": {
       "dfx_controller_0": "",
-      "zynq_ultra_ps_e_0": ""
+      "zynq_ultra_ps_e_0": "",
+      "axi_hbicap_0": "",
+      "axi_hwicap_0": ""
     },
     "components": {
       "dfx_controller_0": {
@@ -1296,6 +1298,25 @@
             }
           }
         }
+      },
+      "axi_hbicap_0": {
+        "vlnv": "xilinx.com:ip:axi_hbicap:1.0",
+        "ip_revision": "6",
+        "xci_name": "top_axi_hbicap_0_0",
+        "xci_path": "ip\\top_axi_hbicap_0_0\\top_axi_hbicap_0_0.xci",
+        "inst_hier_path": "axi_hbicap_0",
+        "parameters": {
+          "C_ICAP_EXTERNAL": {
+            "value": "0"
+          }
+        }
+      },
+      "axi_hwicap_0": {
+        "vlnv": "xilinx.com:ip:axi_hwicap:3.0",
+        "ip_revision": "33",
+        "xci_name": "top_axi_hwicap_0_0",
+        "xci_path": "ip\\top_axi_hwicap_0_0\\top_axi_hwicap_0_0.xci",
+        "inst_hier_path": "axi_hwicap_0"
       }
     }
   }
