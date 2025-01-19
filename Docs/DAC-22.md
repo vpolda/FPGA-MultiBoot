@@ -12,7 +12,7 @@ This provides a hybrid of performance and energy saving, based on user constrain
 
 
 ## Algorithms 
-TensorRT as the engine.
+TensorRT as the engine. (I don't think TRT will work with non-FPGA things tbh)
 They only used NN algorithms that were capable of running on either GPUs or DLAs: VGG-16/19, Resnet18/50, Alexnet, and GoogleNet. 
 
 ## Hardware constraints
@@ -24,6 +24,8 @@ DLAs have their own private memory. This results in a lag of whenever the model 
 
 # Applicability to FPGAs
 The paper proposes a dynamic schedule that prioritizes either performance or energy. Based on user settings.
+
+The thing I noticed I believe an FPGA could improve is the DLA transistion period
 
 
 # Other Questions
