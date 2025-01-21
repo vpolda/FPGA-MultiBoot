@@ -1,9 +1,12 @@
 # FPGA_MultiBoot
 A project focused on implementing multi-hardware configuration functionality on a Xilinx SOC with the goal of improvying dynamic high performance systems.
-Done on a Kria KV260 which features a UltraScale+ MPSoC ZU5EV.
+Done on a Kria KV260 which features a ZYNQ UltraScale+ MPSoC.
 
 ## Goal 
-Improving high performance heterogenous computer systems
+Improving high performance heterogenous computer systems by enabling switching between performance and power focuses. 
+
+# Hardware Setup
+
 
 # Questions
 ## Typical setup?
