@@ -1,9 +1,10 @@
-# FPGA_MultiBoot
+# FPGA Reconfiguration
 A project focused on implementing multi-hardware configuration functionality on a Xilinx SOC with the goal of improvying dynamic high performance systems.
-Done on a Kria KV260 which features a ZYNQ UltraScale+ MPSoC.
+Done on a Kria KV260 which features a ZYNQ UltraScale+ MPSoC. OR ALVERO
 
 ## Goal 
 Improving high performance heterogenous computer systems by enabling switching between performance and power focuses. 
+The application is based on the paper DAC'22, which is in the folder /docs. With which, I will be attempting to replace the DLA blocks with an FPGA. This is due to the DLAs having private caches which need to be reading/writing in order to change from performance to energy saving mode (and vice versa).
 
 # Hardware Setup
 
