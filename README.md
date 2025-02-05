@@ -7,10 +7,13 @@ Done on a Kria KV260 which features a ZYNQ UltraScale+ MPSoC. OR ALVERO.
 The YOLO algorithm....
 
 ## Vitis AI
-To implement YOLO, we will be using Xilinx's Vitis along with Vitis AI.
-
+To implement YOLO, we will be using Xilinx's Vitis along with Vitis AI. This allows us to rapidly deploy models for the following frameworks shown in the image below onto a Xilinx device.
+Models can be uploaded untrained or pretrained onto the FPGA.
 
 ![Vitis-AI-arch](https://github.com/user-attachments/assets/a2b96df2-b5a4-4ac3-97e6-338a22c512af)
+
+This is achieved through transforming a model into high level synthesis in C++, which is then compiled into premade HDL. Using this does have the down side of losing control of the details of the design, and increased overhead (therefore, increased power and resource consumption). 
+However, in most general cases and ours, these are acceptable drawbacks for rapid deployment.
 
 Vitis AI includes the following key components:
 
@@ -27,7 +30,7 @@ Vitis AI is part of Vitis that must be installed separately from other xilinx to
 We used the WSL Ubuntu on Windows 10 to get it running and had docker installed on the windows 10 side only. The git repo was also cloned to the windows 10 side. The only thing WSL is used for it to run the docker_run.sh.
 It is extremely important to make sure Docker on windows recongnizes WSL.
 
-** To launch **
+**To launch **
  - Launch powershell
  - Enter: wsl -d ubuntu
  - Check that docker is running on windows AND vitis AI container is installed
@@ -36,10 +39,12 @@ It is extremely important to make sure Docker on windows recongnizes WSL.
  - Run: ./docker_run.sh xilinx/vitis-ai-cpu:latest
 
 ## Hardware
-A Kria KV260 connected to remotely over ethernet.
+A Kria KV260 connected to remotely over ethernet. (IDK if this is going to work)
 
 ## Model
-PreTrained Model
+Which model are we going with? etc
+TinyYOLO? etc
+Constrained by needing to use pytorch, ONNX, and tensorflow
 
 # Development
 ## Crawl
