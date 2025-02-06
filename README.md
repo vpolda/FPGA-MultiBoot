@@ -35,7 +35,7 @@ It is extremely important to make sure Docker on windows recongnizes WSL.
  - Enter: wsl -d ubuntu
  - Check that docker is running on windows AND vitis AI container is installed
  - switch to relevant user
- - cd to Vitis-AI git repo
+ - cd to /mnt/c/Xilinx/Vitis-AI or Vitis-AI repo
  - Run: ./docker_run.sh xilinx/vitis-ai-cpu:latest
 
 ## Hardware
