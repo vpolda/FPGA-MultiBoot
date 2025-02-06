@@ -46,6 +46,10 @@ Which model are we going with? etc
 TinyYOLO? etc
 Constrained by needing to use pytorch, ONNX, and tensorflow
 
+# Analysis
+Performance and power vs standard setup (GPU)
+Time and power for DFX
+
 # Development
 ## Crawl
 Implement YOLO on FPGA
